@@ -1,0 +1,15 @@
+Task2
+As with Task1, you are required to write a Java program that opens the test data file of shark information. Use a separate copy of the test data file located in the root of the Task2 NetBeans project.
+
+For this task you are required to write a Java program that analyses the oceanic regions associated with each shark listed in the test data file. 
+
+For each unique region that is contained in the entire shark data set, the Java program should print to the output window (console) the oceanic region and an associated list of sharks (using their common name, in alphabetical order) that are known to roam within that region. Each oceanic region and associated list of sharks should be printed on a separate line, as illustrated below.
+	Region 1 -> [Shark A, Shark B, Shark C]
+	Region 2 -> [Shark D, Shark E]
+	Region 3 -> [Shark F, Shark G, Shark H, Shark I]
+	. . .
+	Etc.
+
+Each region should be listed only once, and the associated list of sharks for that region should not contain duplicates. Sharks should be listed using their common name. The printout should list regions alphabetically, and the list of sharks associated with each region should also be in alphabetical order (based on their common name). 
+
+In addition to the console output, your program should also save all of the output to a text file in the NetBeans project root folder. Call the file results.txt.

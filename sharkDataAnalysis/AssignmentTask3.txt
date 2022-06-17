@@ -1,0 +1,19 @@
+Task3
+As with the previous tasks, you are required to write a Java program that opens the test data file of shark information. Use a separate copy of the test data file located in the root of the Task3 NetBeans project.
+
+For this task, your Java program should prompt the User to enter a search string at the command prompt, i.e., the NetBeans console window. The program should then match the input search string against all of the Latin names in the shark data set and print a list of the sharks that match. The matching should be case insensitive. In other words, the strings “aBc” and “AbC” should match.
+
+On entering a search string expression at the console (command prompt), and after processing the data matching, the program should return a list of matching sharks ordered by their common name in alphabetical order, but which also lists their Latin name with all occurrences of matching string in uppercase and the rest of the Latin name in lowercase. The following examples illustrate how the program should operate.
+
+Example 1
+Enter search string for Latin names: > tUm
+You entered string "tUm"
+The following matches have been found:-
+Nurse Shark - Latin name: Ginglymostoma cirraTUM
+Variegated Shark - Latin name: Stegostoma fasciaTUM
+
+Example 2
+Enter search string for Latin names: > Charc
+You entered string "Charc"
+The following matches have been found:-
+Great White Shark - Latin name: CHARCharodon CHARCharias

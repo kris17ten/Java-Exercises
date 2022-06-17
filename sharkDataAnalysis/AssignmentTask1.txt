@@ -1,0 +1,35 @@
+Task 1
+Inspect the test file provided, which is called shark-data.txt. This is a delimited text file which contains data about different types of sharks. Each new line represents a single shark species with seven fields delimited by the colon character. The seven fields represent different information about the shark in the following order:-
+	o Common name
+	o Latin name (by genus and species)
+	o Maximum length in centimetres that the shark can grow to
+	o Maximum depth the shark type can swim in metres
+	o The maximum number of young a female shark of that species would have in their lifetime
+	o A global presence indicator which is an integer between 1 and 10 to reflect how widespread that shark species can roam
+	o A list of oceanic regions that the shark species has been observed, with each region delimited by the comma character
+
+Write a Java program (as a NetBeans project) that opens up the data file, parses the shark data, and prints the following information to the console:
+	a) The three largest sharks by length, ordered by the largest first. Print the common name of each shark on a newline along with the maximum length in centimetres.
+	b) The three smallest sharks by length, ordered by the smallest first. Print the common name of each shark on a newline along with the maximum length in centimetres.
+	c) The total number of letters (not including whitespace characters) of all the Latin names for all sharks in the data file. Duplicate letters must be counted.
+	d) The total number of unique words contained within all of the Latin names for all sharks in the data file that have an even number of letters.
+	e) The total number of unique words contained within all of the Latin names for all sharks in the data file that have an odd number of letters.
+
+On compiling and running, your program should have output similar to the following:
+--- Three largest sharks ---
+Shark A, Length = a centimetres
+Shark B, Length = b centimetres
+Shark C, Length = c centimetres
+3
+--- Three smallest sharks ---
+Shark X, Length = x centimetres
+Shark Y, Length = y centimetres
+Shark Z, Length = z centimetres
+--------------------------
+Total number of letters in all Latin names = P
+Total number of unique even words in Latin names = Q
+Total number of unique odd words in Latin names = R
+
+Where the values ‘Shark A’ through ‘Shark C’ and ‘Shark X’ through ‘Shark Z’ are replaced with the relevant shark common names, and the values a through c and x though z are replaced with their respective maximum lengths, and the values P, Q and R replaced with the respective letter and word counts.
+
+In addition to the console output, your program should also save all of the output to parts (a) through (e) above to a text file in the NetBeans project root folder. Call the file results.txt.
